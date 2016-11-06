@@ -39,6 +39,10 @@ Please review the tests for more examples.
 Copyright (c) 2014 Maran. See LICENSE.txt for
 further details.
 
+### More Details
+
+http://hidskes.com/blog/2014/04/02/ethereum-building-blocks-part-1-rlp/
+
 gem list --local
 
 ```

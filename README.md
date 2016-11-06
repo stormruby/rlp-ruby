@@ -43,14 +43,26 @@ further details.
 
 http://hidskes.com/blog/2014/04/02/ethereum-building-blocks-part-1-rlp/
 
-
+You should have already installed everything using these commands...
 
 ```
+rvm gemset create rlp
+rvm gemset use rlp
+rvm current
+gem install bundler
+bundle install
+rvm current
+```
+
 See if the gem is already installed...
+
+```
 gem list --local
+```
 
 If **rlp-ruby** is not installed then...
 
+```
 gem build rlp-ruby.gemspec
 gem install rlp-ruby
 irb

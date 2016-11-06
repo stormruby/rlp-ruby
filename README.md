@@ -25,7 +25,7 @@ rlp-ruby works by extending the ruby primitve classes with rlp oriented function
 Please review the tests for more examples.
 
 ### Contributing to rlp-ruby
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
@@ -39,3 +39,11 @@ Please review the tests for more examples.
 Copyright (c) 2014 Maran. See LICENSE.txt for
 further details.
 
+gem list --local
+
+```
+gem build rlp-ruby.gemspec
+gem install rlp-ruby
+irb
+require 'rlp-ruby'
+```
